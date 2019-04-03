@@ -31,6 +31,11 @@ def count_elements(array)
   array.uniq.map { |x| [x, array.count(x)] }.to_h
 
 end
+
+def merge_data(key, data)
+  puts key
+  puts data
+end 
     
 
 
